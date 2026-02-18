@@ -1,0 +1,13 @@
+name: python1course-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - jupyter
+  - ipykernel
+  - pytest
+  - ruff
+  - pre-commit
+  - pip
+  - pip:
+      - build

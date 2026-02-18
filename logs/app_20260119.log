@@ -1,0 +1,125 @@
+2026-01-19 20:14:18,465 - python1course.zaj06.cinema - DEBUG - Utworzono salę kinową (4 miejsc)
+2026-01-19 20:14:18,468 - python1course.zaj06.cinema - DEBUG - reserve(): seat=A1, user=Jan
+2026-01-19 20:14:18,468 - python1course.zaj06.cinema - INFO - Zarezerwowano miejsce A1 dla Jan
+2026-01-19 20:14:18,564 - python1course.zaj06.cinema - DEBUG - Utworzono salę kinową (50 miejsc)
+2026-01-19 20:14:18,565 - python1course.zaj06.cinema - DEBUG - reserve(): seat=A1, user=Jan
+2026-01-19 20:14:18,565 - python1course.zaj06.cinema - INFO - Zarezerwowano miejsce A1 dla Jan
+2026-01-19 20:14:18,574 - python1course.zaj06.cinema - DEBUG - Utworzono salę kinową (50 miejsc)
+2026-01-19 20:14:18,575 - python1course.zaj06.cinema - DEBUG - reserve(): seat=A1, user=Jan
+2026-01-19 20:14:18,575 - python1course.zaj06.cinema - INFO - Zarezerwowano miejsce A1 dla Jan
+2026-01-19 20:14:18,586 - python1course.zaj06.cinema - DEBUG - Utworzono salę kinową (50 miejsc)
+2026-01-19 20:14:18,586 - python1course.zaj06.cinema - DEBUG - reserve(): seat=A1, user=Jan
+2026-01-19 20:14:18,586 - python1course.zaj06.cinema - INFO - Zarezerwowano miejsce A1 dla Jan
+2026-01-19 20:14:18,587 - python1course.zaj06.cinema - DEBUG - reserve(): seat=A2, user=Jan
+2026-01-19 20:14:18,587 - python1course.zaj06.cinema - ERROR - Użytkownik Jan ma już rezerwację
+2026-01-19 20:14:18,591 - python1course.zaj06.cinema - DEBUG - Utworzono salę kinową (50 miejsc)
+2026-01-19 20:14:18,591 - python1course.zaj06.cinema - DEBUG - reserve(): seat=A1, user=Jan
+2026-01-19 20:14:18,591 - python1course.zaj06.cinema - INFO - Zarezerwowano miejsce A1 dla Jan
+2026-01-19 20:14:18,603 - python1course.zaj06.cinema - DEBUG - Utworzono salę kinową (50 miejsc)
+2026-01-19 20:14:18,603 - python1course.zaj06.cinema - DEBUG - reserve(): seat=A1, user=Jan
+2026-01-19 20:14:18,603 - python1course.zaj06.cinema - INFO - Zarezerwowano miejsce A1 dla Jan
+2026-01-19 20:14:18,613 - python1course.zaj06.cinema - DEBUG - Utworzono salę kinową (50 miejsc)
+2026-01-19 20:14:18,613 - python1course.zaj06.cinema - DEBUG - reserve(): seat=A1, user=Piotr
+2026-01-19 20:14:18,613 - python1course.zaj06.cinema - INFO - Zarezerwowano miejsce A1 dla Piotr
+2026-01-19 20:14:18,613 - python1course.zaj06.cinema - DEBUG - reserve(): seat=A1, user=Jan
+2026-01-19 20:14:18,614 - python1course.zaj06.cinema - WARNING - Miejsce A1 jest już zajęte
+2026-01-19 20:14:18,633 - python1course.zaj06.cinema - DEBUG - Utworzono salę kinową (50 miejsc)
+2026-01-19 20:14:18,633 - python1course.zaj06.cinema - DEBUG - reserve(): seat=A1, user=Piotr
+2026-01-19 20:14:18,633 - python1course.zaj06.cinema - INFO - Zarezerwowano miejsce A1 dla Piotr
+2026-01-19 20:14:18,634 - python1course.zaj06.cinema - DEBUG - reserve(): seat=A1, user=Anna
+2026-01-19 20:14:18,634 - python1course.zaj06.cinema - WARNING - Miejsce A1 jest już zajęte
+2026-01-19 20:14:18,651 - python1course.zaj06.cinema - DEBUG - Utworzono salę kinową (50 miejsc)
+2026-01-19 20:14:18,651 - python1course.zaj06.cinema - DEBUG - reserve(): seat=A1, user=Piotr
+2026-01-19 20:14:18,651 - python1course.zaj06.cinema - INFO - Zarezerwowano miejsce A1 dla Piotr
+2026-01-19 20:14:18,651 - python1course.zaj06.cinema - DEBUG - reserve(): seat=Z9, user=Jan
+2026-01-19 20:14:18,651 - python1course.zaj06.cinema - ERROR - Miejsce Z9 nie istnieje
+2026-01-19 20:16:47,324 - python1course.zaj06.cinema - DEBUG - Utworzono salę kinową (4 miejsc)
+2026-01-19 20:16:47,324 - python1course.zaj06.cinema - DEBUG - reserve(): seat=A1, user=Jan
+2026-01-19 20:16:47,324 - python1course.zaj06.cinema - INFO - Zarezerwowano miejsce A1 dla Jan
+2026-01-19 20:16:47,324 - python1course.zaj06.cinema - DEBUG - cancel(): seat=A1, customer=Jan
+2026-01-19 20:16:47,324 - python1course.zaj06.cinema - INFO - Anulowano rezerwację miejsca A1 (użytkownik Jan)
+2026-01-19 20:16:47,325 - python1course.zaj06.cinema - DEBUG - reserve(): seat=A1, user=Anna
+2026-01-19 20:16:47,325 - python1course.zaj06.cinema - INFO - Zarezerwowano miejsce A1 dla Anna
+2026-01-19 20:16:47,331 - python1course.zaj06.cinema - DEBUG - Utworzono salę kinową (50 miejsc)
+2026-01-19 20:16:47,331 - python1course.zaj06.cinema - DEBUG - reserve(): seat=A1, user=Jan
+2026-01-19 20:16:47,331 - python1course.zaj06.cinema - INFO - Zarezerwowano miejsce A1 dla Jan
+2026-01-19 20:16:47,331 - python1course.zaj06.cinema - DEBUG - cancel(): seat=A1, customer=Anna
+2026-01-19 20:16:47,332 - python1course.zaj06.cinema - ERROR - Próba anulowania przez inną osobę: Anna vs Jan
+2026-01-19 20:16:47,335 - python1course.zaj06.cinema - DEBUG - Utworzono salę kinową (50 miejsc)
+2026-01-19 20:16:47,335 - python1course.zaj06.cinema - DEBUG - reserve(): seat=A1, user=Jan
+2026-01-19 20:16:47,335 - python1course.zaj06.cinema - INFO - Zarezerwowano miejsce A1 dla Jan
+2026-01-19 20:16:47,341 - python1course.zaj06.cinema - DEBUG - Utworzono salę kinową (50 miejsc)
+2026-01-19 20:16:47,341 - python1course.zaj06.cinema - DEBUG - reserve(): seat=A1, user=Jan
+2026-01-19 20:16:47,341 - python1course.zaj06.cinema - INFO - Zarezerwowano miejsce A1 dla Jan
+2026-01-19 20:16:47,341 - python1course.zaj06.cinema - DEBUG - reserve(): seat=A2, user=Jan
+2026-01-19 20:16:47,341 - python1course.zaj06.cinema - ERROR - Użytkownik Jan ma już rezerwację
+2026-01-19 20:16:47,347 - python1course.zaj06.cinema - DEBUG - Utworzono salę kinową (50 miejsc)
+2026-01-19 20:16:47,347 - python1course.zaj06.cinema - DEBUG - reserve(): seat=A1, user=Jan
+2026-01-19 20:16:47,348 - python1course.zaj06.cinema - INFO - Zarezerwowano miejsce A1 dla Jan
+2026-01-19 20:16:47,348 - python1course.zaj06.cinema - DEBUG - cancel(): seat=A1, customer=Jan
+2026-01-19 20:16:47,348 - python1course.zaj06.cinema - INFO - Anulowano rezerwację miejsca A1 (użytkownik Jan)
+2026-01-19 20:16:47,353 - python1course.zaj06.cinema - DEBUG - Utworzono salę kinową (50 miejsc)
+2026-01-19 20:16:47,353 - python1course.zaj06.cinema - DEBUG - reserve(): seat=A1, user=Jan
+2026-01-19 20:16:47,353 - python1course.zaj06.cinema - INFO - Zarezerwowano miejsce A1 dla Jan
+2026-01-19 20:16:47,354 - python1course.zaj06.cinema - DEBUG - cancel(): seat=A1, customer=Anna
+2026-01-19 20:16:47,354 - python1course.zaj06.cinema - ERROR - Próba anulowania przez inną osobę: Anna vs Jan
+2026-01-19 20:16:47,359 - python1course.zaj06.cinema - DEBUG - Utworzono salę kinową (50 miejsc)
+2026-01-19 20:16:47,360 - python1course.zaj06.cinema - DEBUG - reserve(): seat=A1, user=Piotr
+2026-01-19 20:16:47,361 - python1course.zaj06.cinema - INFO - Zarezerwowano miejsce A1 dla Piotr
+2026-01-19 20:16:47,362 - python1course.zaj06.cinema - DEBUG - reserve(): seat=A1, user=Jan
+2026-01-19 20:16:47,362 - python1course.zaj06.cinema - WARNING - Miejsce A1 jest już zajęte
+2026-01-19 20:16:47,458 - python1course.zaj06.cinema - DEBUG - Utworzono salę kinową (50 miejsc)
+2026-01-19 20:16:47,458 - python1course.zaj06.cinema - DEBUG - reserve(): seat=A1, user=Piotr
+2026-01-19 20:16:47,458 - python1course.zaj06.cinema - INFO - Zarezerwowano miejsce A1 dla Piotr
+2026-01-19 20:16:47,458 - python1course.zaj06.cinema - DEBUG - reserve(): seat=A1, user=Anna
+2026-01-19 20:16:47,458 - python1course.zaj06.cinema - WARNING - Miejsce A1 jest już zajęte
+2026-01-19 20:16:47,468 - python1course.zaj06.cinema - DEBUG - Utworzono salę kinową (50 miejsc)
+2026-01-19 20:16:47,470 - python1course.zaj06.cinema - DEBUG - reserve(): seat=A1, user=Piotr
+2026-01-19 20:16:47,471 - python1course.zaj06.cinema - INFO - Zarezerwowano miejsce A1 dla Piotr
+2026-01-19 20:16:47,471 - python1course.zaj06.cinema - DEBUG - reserve(): seat=Z9, user=Jan
+2026-01-19 20:16:47,471 - python1course.zaj06.cinema - ERROR - Miejsce Z9 nie istnieje
+2026-01-19 20:19:53,290 - python1course.zaj06.cinema - DEBUG - Utworzono salę kinową (4 miejsc)
+2026-01-19 20:19:53,291 - python1course.zaj06.cinema - DEBUG - reserve(): seat=A1, user=Jan
+2026-01-19 20:19:53,292 - python1course.zaj06.cinema - INFO - Zarezerwowano miejsce A1 dla Jan
+2026-01-19 20:19:53,293 - python1course.zaj06.cinema - DEBUG - cancel(): seat=A1, customer=Jan
+2026-01-19 20:19:53,294 - python1course.zaj06.cinema - INFO - Anulowano rezerwację miejsca A1 (użytkownik Jan)
+2026-01-19 20:19:53,295 - python1course.zaj06.cinema - DEBUG - reserve(): seat=A1, user=Anna
+2026-01-19 20:19:53,295 - python1course.zaj06.cinema - INFO - Zarezerwowano miejsce A1 dla Anna
+2026-01-19 20:19:53,301 - python1course.zaj06.cinema - DEBUG - Utworzono salę kinową (50 miejsc)
+2026-01-19 20:19:53,301 - python1course.zaj06.cinema - DEBUG - reserve(): seat=A1, user=Jan
+2026-01-19 20:19:53,301 - python1course.zaj06.cinema - INFO - Zarezerwowano miejsce A1 dla Jan
+2026-01-19 20:19:53,301 - python1course.zaj06.cinema - DEBUG - cancel(): seat=A1, customer=Anna
+2026-01-19 20:19:53,301 - python1course.zaj06.cinema - ERROR - Próba anulowania przez inną osobę: Anna vs Jan
+2026-01-19 20:19:53,306 - python1course.zaj06.cinema - DEBUG - Utworzono salę kinową (50 miejsc)
+2026-01-19 20:19:53,306 - python1course.zaj06.cinema - DEBUG - reserve(): seat=A1, user=Jan
+2026-01-19 20:19:53,306 - python1course.zaj06.cinema - INFO - Zarezerwowano miejsce A1 dla Jan
+2026-01-19 20:19:53,312 - python1course.zaj06.cinema - DEBUG - Utworzono salę kinową (50 miejsc)
+2026-01-19 20:19:53,312 - python1course.zaj06.cinema - DEBUG - reserve(): seat=A1, user=Jan
+2026-01-19 20:19:53,312 - python1course.zaj06.cinema - INFO - Zarezerwowano miejsce A1 dla Jan
+2026-01-19 20:19:53,312 - python1course.zaj06.cinema - DEBUG - reserve(): seat=A2, user=Jan
+2026-01-19 20:19:53,312 - python1course.zaj06.cinema - ERROR - Użytkownik Jan ma już rezerwację
+2026-01-19 20:19:53,321 - python1course.zaj06.cinema - DEBUG - Utworzono salę kinową (50 miejsc)
+2026-01-19 20:19:53,321 - python1course.zaj06.cinema - DEBUG - reserve(): seat=A1, user=Jan
+2026-01-19 20:19:53,322 - python1course.zaj06.cinema - INFO - Zarezerwowano miejsce A1 dla Jan
+2026-01-19 20:19:53,322 - python1course.zaj06.cinema - DEBUG - cancel(): seat=A1, customer=Jan
+2026-01-19 20:19:53,322 - python1course.zaj06.cinema - INFO - Anulowano rezerwację miejsca A1 (użytkownik Jan)
+2026-01-19 20:19:53,327 - python1course.zaj06.cinema - DEBUG - Utworzono salę kinową (50 miejsc)
+2026-01-19 20:19:53,327 - python1course.zaj06.cinema - DEBUG - reserve(): seat=A1, user=Jan
+2026-01-19 20:19:53,327 - python1course.zaj06.cinema - INFO - Zarezerwowano miejsce A1 dla Jan
+2026-01-19 20:19:53,328 - python1course.zaj06.cinema - DEBUG - cancel(): seat=A1, customer=Anna
+2026-01-19 20:19:53,328 - python1course.zaj06.cinema - ERROR - Próba anulowania przez inną osobę: Anna vs Jan
+2026-01-19 20:19:53,332 - python1course.zaj06.cinema - DEBUG - Utworzono salę kinową (50 miejsc)
+2026-01-19 20:19:53,332 - python1course.zaj06.cinema - DEBUG - reserve(): seat=A1, user=Piotr
+2026-01-19 20:19:53,333 - python1course.zaj06.cinema - INFO - Zarezerwowano miejsce A1 dla Piotr
+2026-01-19 20:19:53,333 - python1course.zaj06.cinema - DEBUG - reserve(): seat=B1, user=Jan
+2026-01-19 20:19:53,333 - python1course.zaj06.cinema - INFO - Zarezerwowano miejsce B1 dla Jan
+2026-01-19 20:19:53,344 - python1course.zaj06.cinema - DEBUG - Utworzono salę kinową (50 miejsc)
+2026-01-19 20:19:53,344 - python1course.zaj06.cinema - DEBUG - reserve(): seat=A1, user=Piotr
+2026-01-19 20:19:53,345 - python1course.zaj06.cinema - INFO - Zarezerwowano miejsce A1 dla Piotr
+2026-01-19 20:19:53,345 - python1course.zaj06.cinema - DEBUG - reserve(): seat=A1, user=Anna
+2026-01-19 20:19:53,345 - python1course.zaj06.cinema - WARNING - Miejsce A1 jest już zajęte
+2026-01-19 20:19:53,375 - python1course.zaj06.cinema - DEBUG - Utworzono salę kinową (50 miejsc)
+2026-01-19 20:19:53,376 - python1course.zaj06.cinema - DEBUG - reserve(): seat=A1, user=Piotr
+2026-01-19 20:19:53,376 - python1course.zaj06.cinema - INFO - Zarezerwowano miejsce A1 dla Piotr
+2026-01-19 20:19:53,377 - python1course.zaj06.cinema - DEBUG - reserve(): seat=Z9, user=Jan
+2026-01-19 20:19:53,377 - python1course.zaj06.cinema - ERROR - Miejsce Z9 nie istnieje

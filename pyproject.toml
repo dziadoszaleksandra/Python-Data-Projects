@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "python1course"
+version = "0.1.0"
+requires-python = ">=3.12"
+description = "Pakiet z kodem z zajec"
+authors = [
+    { name = "Aleksandra Dziadosz", email = "student@agh.edu.pl" }
+]
+dependencies = [
+    "numpy",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "ruff",
+    "pre-commit",
+    "build",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["python1course*"]
+
+# --- Konfiguracja RUFF ---
+
+[tool.ruff]
+line-length = 88
+
+[tool.ruff.lint]
+# Wybieramy szeroki zestaw reguł, ale poniżej wyłączymy te problematyczne
+select = ["E", "W", "F", "I", "B", "C4", "UP", "ARG", "SIM", "TCH", "PTH", "RUF"]
+
+# LISTA IGNOROWANYCH BŁĘDÓW (aby przejść make pre-release):
+ignore = [
+    "F403", "F405", # Importy z gwiazdką (*)
+    "E501",         # Zbyt długie linie (powyżej 88 znaków)
+    "E402",         # Importy nie na początku pliku (masz to w skrypt1.py)
+    "PTH",          # Wymuszanie Pathlib zamiast os/open
+    "B905",         # zip() bez parametru strict=True
+    "RUF",          # Specyficzne reguły Ruff (np. mutable class attributes)
+    "C4",           # Skomplikowane list comprehensions
+    "SIM",          # Sugestie uproszczeń kodu
+    "UP",           # Sugestie nowszej składni (np. yield from)
+    "E731",         # Przypisywanie lambda do zmiennej
+    "I001",         # Sortowanie importów (isort) - psuje kolejność w skryptach
+    "ARG"           # Nieużywane argumenty funkcji
+]
+
+[tool.ruff.lint.isort]
+known-first-party = ["python1course"]
