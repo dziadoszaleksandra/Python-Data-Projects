@@ -1,7 +1,0 @@
-numpy
-
-[dev]
-pytest
-ruff
-pre-commit
-build
